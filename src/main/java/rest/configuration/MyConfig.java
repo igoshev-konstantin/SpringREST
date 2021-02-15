@@ -20,7 +20,7 @@ import java.util.Properties;
 @EnableWebMvc           /*Эта Аннотация заменяет строку <mvc:annotation-driven/> в applicationContext.xml*/
 @EnableTransactionManagement            /*Эта Аннотация заменяет строку <tx:annotation-driven transaction-manager="transactionManager" /> в applicationContext.xml*/
 public class MyConfig {
-
+/*on*/
     @Bean
     public DataSource dataSource() {
         /*"Этот метод создаем бин c3p0, который будет управлять коннектами*/
